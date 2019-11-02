@@ -19,14 +19,11 @@ Separator "sep" dalam python digunakan sebagai pembatas antara output yang dihas
 
 Contoh Kode :
 
-w, x, y, z = 10, 15, 20, 25  
-print(w, x, y, z, sep=',')  
-print(w, x, y, z, sep='')  
-print(w, x, y, z, sep=':')  
-print(w, x, y, z, sep='- - - - -')
+![separator](https://user-images.githubusercontent.com/56243857/68066530-0b562100-fd6c-11e9-88b6-52324d2c933d.PNG)
+
 Output yang didapat :
 
-Output_Sep
+![hasil sep](https://user-images.githubusercontent.com/56243857/68066540-32145780-fd6c-11e9-83a9-aa970c753fa2.PNG)
 
 Kita bisa mengisi sep='isi_disini' dengan string atau karakter apapun.
 
@@ -35,35 +32,33 @@ String format digunakan ketika kita ingin mengatur dan memposiskan print output 
 Contoh kode :
 
 # String yang belum di format
-print(0, 10 ** 0)  
-print(1, 10 ** 1)  
-print(2, 10 ** 2)  
-print(3, 10 ** 3)  
-print(4, 10 ** 4)  
-print(5, 10 ** 5)  
-print(6, 10 ** 6)  
-print(7, 10 ** 7)  
-print(8, 10 ** 8)  
-print(9, 10 ** 9)  
-print(10, 10 ** 10)
+
+![string](https://user-images.githubusercontent.com/56243857/68066560-51ab8000-fd6c-11e9-9837-6c982f284360.PNG)
+
 Output :
 
-3_Output_String-f
+![hasil string](https://user-images.githubusercontent.com/56243857/68066566-6be55e00-fd6c-11e9-8b4e-f82657b61c3a.PNG)
 
 Kita akan membuat outputnya menjadi seperti berikut :
 
-4_Output_String-f
+![hasil string frmt](https://user-images.githubusercontent.com/56243857/68066575-7dc70100-fd6c-11e9-916d-dfe7afc6a9ac.PNG)
+
 
 Dengan Kode :
 
-print('{0:>3} {1:>16}'.format(0, 10 ** 0))  
-print('{0:>3} {1:>16}'.format(1, 10 ** 1))  
-print('{0:>3} {1:>16}'.format(2, 10 ** 2))  
-print('{0:>3} {1:>16}'.format(3, 10 ** 3))  
-print('{0:>3} {1:>16}'.format(4, 10 ** 4))  
-print('{0:>3} {1:>16}'.format(5, 10 ** 5))  
-print('{0:>3} {1:>16}'.format(6, 10 ** 6))  
-print('{0:>3} {1:>16}'.format(7, 10 ** 7))  
-print('{0:>3} {1:>16}'.format(8, 10 ** 8))  
-print('{0:>3} {1:>16}'.format(9, 10 ** 9))  
-print('{0:>3} {1:>16}'.format(10, 10 ** 10))
+![string format](https://user-images.githubusercontent.com/56243857/68066580-90413a80-fd6c-11e9-943c-97f897d64767.PNG)
+
+## lab 2
+Lab2 membahas tentang bagaimana memasukan input, menghitung dan mengubah tipe data serta membuat format print yang akan dicetak ke output.
+
+# Contoh kode :
+
+![lab2](https://user-images.githubusercontent.com/56243857/68066596-faf27600-fd6c-11e9-81c9-3523be28bbfd.PNG)
+
+# Output yang didapat :
+
+![hasil2](https://user-images.githubusercontent.com/56243857/68066617-7ce29f00-fd6d-11e9-9fcb-96e4ff30fc24.PNG)
+
+Input dimasukan dengan cara menjalankan program terlebih dahulu, kemudian data dimasukan oleh user (Lihat angka 10 & 6 hijau) dengan diikuti keterangan berupa string "masukan nilai a:". Lalu input di cetak menggunakan fungsi "print()", disertai keterangan "hasil penggabungan" seperti berikut. Kode :
+
+![lab22](https://user-images.githubusercontent.com/56243857/68066625-a0a5e500-fd6d-11e9-9820-bb1d17b3aa20.PNG)
